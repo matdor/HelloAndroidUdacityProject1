@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <dimen
+        name="TextMargin_left"
+        >android:layout_marginLeft="8dp"
+    </dimen>
+
 </resources>
