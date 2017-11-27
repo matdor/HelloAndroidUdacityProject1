@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context="MainActivity"
     >
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -41,18 +40,14 @@
             android:layout_marginTop="32dp"
             android:orientation="horizontal"
             >
-            <ImageView
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/logo"
-                />
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:text="Udacity"
+                android:layout_marginLeft="2dp"
+                android:text="@string/title"
+                android:textSize="24sp"
                 />
 
         </LinearLayout>
@@ -79,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_toRightOf="@+id/address_logo"
-                android:text="2465 Latham St,"
+                android:text="@string/adressL1"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -87,7 +82,7 @@
                 android:layout_below="@+id/address_line1"
                 android:layout_marginLeft="8dp"
                 android:layout_toRightOf="@+id/address_logo"
-                android:text="Mountain View, CA 94043"
+                android:text="@string/adressL2"
                 />
 
         </RelativeLayout>
@@ -111,7 +106,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:text="www.udacity.com"
+                android:text="@string/website"
                 />
 
         </LinearLayout>
@@ -135,7 +130,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:text="650-555-5555"
+                android:text="@string/phone"
                 />
 
         </LinearLayout>
